@@ -1,6 +1,6 @@
 function retval = root_finding_bisection(input1, input2)
     % Defining the function
-    f = @(x) x.^2 - 4;
+    f = @(x) x.^2 - 4;  % my octave doesn't support x^2
 
     % Defining the interval [a, b] where you expect the root to be
     a = 0;
