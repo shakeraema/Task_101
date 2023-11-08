@@ -38,3 +38,4 @@ if cols_A == rows_B
 else
     disp("Multiplication is not possible. Number of columns in A must be equal to number of rows in B.");
 end
+% There is no user defined function
