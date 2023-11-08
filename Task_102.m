@@ -4,7 +4,7 @@ function retval = root_finding_bisection(input1, input2)
 
     % Defining the interval [a, b] where you expect the root to be
     a = 0;
-    b = 10;
+    b = 6;
 
     % Setting the tolerance for convergence
     tolerance = 1e-6;
