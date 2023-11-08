@@ -4,7 +4,7 @@ function retval = root_finding_newton_raphson(input1, input2)
     df = @(x) 2*x;
 
     % Initial guess for the root
-    x = input1;  %Inputs are like (2,2),(1,2.5),(3,13/6),(4,2.5) etc.
+    x = input1;  %Inputs are like (2,2),(1,2.5),(3,13/6),(4,2.5),(5,2.9) etc.
 
     % Set the tolerance for convergence
     tolerance = 1e-6;
