@@ -1,4 +1,4 @@
-function retval = root_finding_bisection(input1, input2)
+function retval = Task_102(input1, input2)
     % Defining the function
     f = @(x) x.^2 - 4;  % my octave doesn't support x^2
 
