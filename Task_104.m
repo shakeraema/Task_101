@@ -1,4 +1,4 @@
-function retval = root_finding_newton_raphson(input1, input2)
+function retval = Task_104(input1, input2)
     % Define the function and its derivative
     f = @(x) x.^2 - 4;
     df = @(x) 2*x;
